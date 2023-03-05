@@ -15,14 +15,38 @@
 .Food{
     background-image: url("../../assets/imgs/Food.webp");
     width: 100vw;
-    height: 290px;
+    height: 300px;
 }
 
 
-
-
-
-
+@media screen and (min-width:600px) {
+    .photo__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .photo{
+        width: 500px;
+        object-fit: contain;
+    }
+    .photo__description{
+        margin: 0 4rem;
+    }
+}
+@media screen and (min-width: 728px) {
+    .Andres_2{
+        background-image: url("../../assets/imgs/Food.webp");
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .Window_2{
+        background-image: url("../../assets/imgs/Window_2.webp");
+        width: 100vw;
+        height: 100vh;   
+    }
+}
 
 
 
