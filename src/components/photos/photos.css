@@ -1,6 +1,7 @@
 
 .photo{
-    max-width: 100vw;
+    background-size: cover;
+
 }
 .photo__description{
     padding: 2rem;

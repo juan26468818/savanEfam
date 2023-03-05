@@ -1,9 +1,22 @@
 
 
 
+.Andres_2{
+    background-image: url("../../assets/imgs/Andres_2.webp");
+    width: 100vw;
+    height: 100vh;
+}
 
-
-
+.Window_2{
+    background-image: url("../../assets/imgs/Window_2.webp");
+    width: 100vw;
+    height: 300px;
+}
+.Food{
+    background-image: url("../../assets/imgs/Food.webp");
+    width: 100vw;
+    height: 300px;
+}
 
 
 
