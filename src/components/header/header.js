@@ -30,11 +30,7 @@ const Header = ()=>{
                     <Link to="#"><li>About Me</li></Link>
                     <Link to="#"><li>Inspiration</li></Link>
                     <Link to="#"><li>Contact</li></Link>
-                    <div className="social-container">
-                        <a href="#" class="social-container" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/MafeNavas_" class="social-container" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/savan.efam/?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noreferrer" class="social-container"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
+                    
                 </ul>
         
             </nav>
