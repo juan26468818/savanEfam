@@ -63,7 +63,7 @@ a > li{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding-top: 1rem;
+    padding: 2rem 0 ;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -75,7 +75,6 @@ a > li{
     -webkit-box-shadow: -3px 4px 6px -2px rgba(0,0,0,0.52); 
     box-shadow: -3px 4px 6px -2px rgba(0,0,0,0.52);
     background-color: var(--secondary-black);
-    width: 100%;
 }
 .open:not(button){   
     left: 0;
