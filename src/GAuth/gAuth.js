@@ -8,7 +8,7 @@ const GAuth = ()=>{
 
             <GoogleLogin
             onSuccess={credentialResponse => {
-                console.log(credentialResponse.profileObj);
+                console.log(credentialResponse);
             }}
             onError={() => {
                 console.log('Login Failed');
