@@ -1,9 +1,8 @@
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { GoogleLogin } from '@react-oauth/google';
-import {clientId} from "./config"
 const GAuth = ()=>{
     return(
-        <GoogleOAuthProvider clientId={clientId}>
+        <GoogleOAuthProvider clientId="264216297261-hfrpjat26iviqtd9ckhcep5ilm4p4btd.apps.googleusercontent.com">
 
 
 
