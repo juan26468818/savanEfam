@@ -8,11 +8,13 @@ const GAuth = ()=>{
 
             <GoogleLogin
             onSuccess={credentialResponse => {
-                console.log(credentialResponse);
+                console.log(credentialResponse.profileObj);
             }}
             onError={() => {
                 console.log('Login Failed');
             }}
+            auto_select
+            
             />
         </GoogleOAuthProvider>
     );
