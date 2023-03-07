@@ -29,6 +29,7 @@
     max-width: 500px;
 }
 .home__about-me-description > h2{
+    margin-top: 1rem;
     font-size: 2rem;
 }
 
