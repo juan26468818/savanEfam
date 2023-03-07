@@ -32,7 +32,6 @@
 .Film8{
     background-image: url("../../assets/imgs/Film/film8.webp");
     height: 100vh;
-    margin-bottom: 2rem;
 }
 
 @media screen and (min-width:600px) {
