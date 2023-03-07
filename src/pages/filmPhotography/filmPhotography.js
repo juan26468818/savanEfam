@@ -4,9 +4,9 @@ import Header from "../../components/header/header";
 
 const FilmPhotography = () =>{
     return(
-        <div >
+        <div id="film-photography">
             <Header />
-            <div className="home__about-me-description">
+            <div className="home__about-me-description" >
                     <h2>Film Photography</h2>
                     <p>Even though since I was a little kid I’ve had a fascination for photography, and always possessed cameras, I consider my life as a photographer started when I bought my first film camera (Minolta X700) I had to buy it because I enrolled in my very first photography class. 
                     <br /> <br /> 
@@ -14,7 +14,7 @@ const FilmPhotography = () =>{
                     <br /> <br /> 
                     I highly recommend that if you are going to do film photography, make sure to be present in every part of the process, learn how to develop, and how to print in the photo lab. It makes the process almost intimate.</p>
                 </div>
-            <div className="film-container">
+            <div className="film-container" >
                 <Photos class="Film1"/>
                 <hr />
                 

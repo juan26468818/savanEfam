@@ -58,3 +58,25 @@
     width: 100%;
     height: 250px;
 }
+
+@media screen and (min-width: 600px){
+    .Digital1, .Digital2, .Digital3, .Digital4, .Digital5, .Digital6, .Digital7, .Digital8, .Digital9, .Digital10, .Digital11, .Digital12{
+        height: 400px;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .Digital1, .Digital2, .Digital3, .Digital4, .Digital5, .Digital6, .Digital7, .Digital8, .Digital9, .Digital10, .Digital11, .Digital12{
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width:1300px){
+    .Digital1, .Digital2, .Digital3, .Digital4, .Digital5, .Digital6, .Digital7, .Digital8, .Digital9, .Digital10, .Digital11, .Digital12{
+        margin: 0;
+        width: 95%;
+        min-height: 900px;
+    }
+}

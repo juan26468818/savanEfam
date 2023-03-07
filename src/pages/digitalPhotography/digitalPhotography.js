@@ -5,7 +5,10 @@ import Header from "../../components/header/header"
 const DigitalPhotography = () =>{
     return(
         <div>
-            <Header />
+            <Header /><div className="home__about-me-description" >
+            <h2>Digital Photography</h2>
+            <p>To be completely honest, I prefer film photography. However, the spectacular perks of digital are undeniable. That’s why I shoot mostly digital (even though I intend to use more film in the future). The experimenting range and quickness of results that digital photography provides are what make it so essential in the life of a photographer. </p>
+            </div>
             <div className="film-container">
                 <Photos class="Digital1"/>
                 <hr />

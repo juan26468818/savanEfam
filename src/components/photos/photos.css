@@ -2,6 +2,12 @@
     max-width: 100vw;
 }
 .photo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 3rem;
+    text-align: right;
+    padding: 1rem;
     background-size: cover;
     background-position: center;
 }
@@ -17,5 +23,8 @@
 @media screen and (min-width: 728px) {
     .photo__container{
         margin: 0 4rem;
+    }
+    .photo{
+        font-size: 5rem;
     }
 }

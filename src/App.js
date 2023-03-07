@@ -16,8 +16,8 @@ function App() {
         <Route path="FilmPhotography" element={<FilmPhotography />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="DigitalPhotography" element={<DigitalPhotography />} />
-        {/* <Route path="About" element={<About />} />
-        <Route path="Inspiration" element={<Inspiration />} />
+         <Route path="About" element={<About />} />
+        {/*<Route path="Inspiration" element={<Inspiration />} />
         <Route path="*" element={<NoPage />} /> */}
       </Routes>
     </BrowserRouter>
