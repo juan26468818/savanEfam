@@ -16,7 +16,7 @@ const Home = ()=>{
                 </div>
                 <hr />
                 <section className="home__about-me">
-                    <Link to="AboutMe"><Photos class="AboutMe" title="About Me"/></Link>
+                    <Link to="About"><Photos class="AboutMe" title="About Me"/></Link>
                     <div className="home__about-me-description">
                   </div>
                 </section>
