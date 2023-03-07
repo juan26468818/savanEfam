@@ -36,32 +36,33 @@
 
 @media screen and (min-width:600px) {
     .Film1{
-        margin-top: 2rem;
         background-image: url("../../assets/imgs/Film/film4.webp");
-        height: 400px;            
+        margin-top: 2rem;
+        height: 400px;   
     }
-    .Film3{
-        background-image: url("../../assets/imgs/Film/film6.webp");
+    .Film4{
+        background-image: url("../../assets/imgs/Film/film1.webp");
+                 
+    }
+    .Film6{
         height: 350px;
     }
-    .Film5{
-        background-image: url("../../assets/imgs/Film/film7.webp");
+    .Film7{
         height: 300px;
     }
-    .Film8{
-        background-image: url("../../assets/imgs/Film/film2.webp");
+    .Film2{
         height: 400px;
     }
 }
 
 @media screen and (min-width: 992px){
-    .Film1, .Film3, .Film5, .Film8{
+    .Film1, .Film6, .Film7, .Film2{
         width: 800px;
         height: 600px;
     }
 }
 @media screen and (min-width:1300px){
-    .Film1, .Film3, .Film5, .Film8{
+    .Film1, .Film6, .Film7, .Film2{
         margin: 0;
         width: 95%;
         min-height: 900px;

@@ -10,14 +10,14 @@ const FilmPhotography = () =>{
                 <Photos class="Film1"/>
                 <hr />
                 
+                <Photos class="Film2"/>
+                <hr />
+
                 <Photos class="Film3"/>
                 <hr />
 
-                <Photos class="Film5"/>
+                <Photos class="Film4"/>
                 <hr />
-
-                <Photos class="Film8"/>
-                {/* <hr />
 
                 <Photos class="Film5"/>
                 <hr />
@@ -27,7 +27,7 @@ const FilmPhotography = () =>{
 
                 <Photos class="Film8"/>
                 <hr />
-                <Photos class="Film7"/> */}
+                <Photos class="Film7"/>
 
             </div>
             
