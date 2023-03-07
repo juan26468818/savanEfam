@@ -2,7 +2,8 @@ header{
     width: 100vw;
     background-color: var(--secondary-black);
     padding: 1rem 2rem;
-    position: fixed;
+    /* margin-bottom: 4rem; */
+    /* position: fixed; */
 }
 h1{
     color: var(--white);

@@ -9,6 +9,7 @@ html{
   --main-black: #141313;
   --secondary-black: #161617;
   --white: #FEFEFE;
+  --gray: #454141;
   --orange: rgb(227, 124, 73);
 }
 body{

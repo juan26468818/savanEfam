@@ -1,21 +1,40 @@
 import "./home.css";
 import Header from "../../components/header/header";
 import Photos from "../../components/photos/photos";
-import Footer from "../../components/footer/footer";
-import GAuth from "../../GAuth/gAuth";
 
 
 const Home = ()=>{
     return(
         <div>
             <Header />
-            <GAuth />
             <div className="home__body">
-                <Photos class="Andres_2" title="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat metus sed est mollis, ut ultricies leo condimentum. Mauris sollicitudin massa a ligula tristique sollicitudin sit amet et enim. Nunc viverra, diam maximus rutrum varius, risus nulla efficitur neque, ac malesuada lorem ipsum eget urna. Duis lectus libero, tempus non tempor at, placerat a neque. Donec in fermentum urna. Quisque purus erat, pharetra consectetur elementum ut, convallis eu nulla. Nam laoreet aliquet feugiat. Sed mollis viverra massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus congue tempor."/>
-                <Photos class="Window_2" title="Lorem Ipsun" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat metus sed est mollis, ut ultricies leo condimentum. Mauris sollicitudin massa a ligula tristique sollicitudin sit amet et enim. Nunc viverra, diam maximus rutrum varius, risus nulla efficitur neque, ac malesuada lorem ipsum eget urna. Duis lectus libero, tempus non tempor at, placerat a neque. Donec in fermentum urna. Quisque purus erat, pharetra consectetur elementum ut, convallis eu nulla. Nam laoreet aliquet feugiat. Sed mollis viverra massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus congue tempor."/>
-                <Photos class="Food" title="Lorem Ipsun" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat metus sed est mollis, ut ultricies leo condimentum. Mauris sollicitudin massa a ligula tristique sollicitudin sit amet et enim. Nunc viverra, diam maximus rutrum varius, risus nulla efficitur neque, ac malesuada lorem ipsum eget urna. Duis lectus libero, tempus non tempor at, placerat a neque. Donec in fermentum urna. Quisque purus erat, pharetra consectetur elementum ut, convallis eu nulla. Nam laoreet aliquet feugiat. Sed mollis viverra massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut faucibus congue tempor."/>
+                <Photos class="FilmHome" />
+                <div className="home__about-me-description">
+                    <h2>Film Photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus tortor ac nibh mollis placerat. 
+                        Sed ullamcorper ut ex non vehicula. Etiam nec lectus dolor. Suspendisse facilisis non odio id rhoncus. 
+                        Sed elementum convallis felis, sed finibus elit viverra at. </p>
+                </div>
+                    <hr />
+                <Photos class="DigitalHome" />
+                <div className="home__about-me-description">
+                    <h2>Digital Photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus tortor ac nibh mollis placerat. 
+                    Sed ullamcorper ut ex non vehicula. Etiam nec lectus dolor. Suspendisse facilisis non odio id rhoncus. 
+                    Sed elementum convallis felis, sed finibus elit viverra at. </p>
+                </div>
+                <hr />
+                <section className="home__about-me">
+                    <Photos class="AboutMe" />
+                    <div className="home__about-me-description">
+                        <h2>Who am I?</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rhoncus tortor ac nibh mollis placerat. 
+                            Sed ullamcorper ut ex non vehicula. Etiam nec lectus dolor. Suspendisse facilisis non odio id rhoncus. 
+                            Sed elementum convallis felis, sed finibus elit viverra at. Curabitur laoreet, ligula ut malesuada imperdiet, 
+                            neque orci mattis odio, vitae faucibus lectus neque non lectus. Nullam lacinia pretium pellentesque.</p>
+                    </div>
+                </section>
             </div>
-            <Footer />
             
         </div>
     )

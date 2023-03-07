@@ -20,16 +20,16 @@ const Header = ()=>{
     return(
         <header>
             <nav className="header__nav-bar">
-            <h1>Savan Efam</h1>
+            <Link to="/"><h1>Savan Efam</h1></Link>
                 <button className={`${menuClass}  header__nav-toggle`} onClick={isActive}>
                     <div className={`header__nav-menu-bar`}></div>
                 </button>
                 <ul className={`${menuClass} App-header__menu`}> 
-                    <Link to="#"><li>Film Photography</li></Link>
-                    <Link to="#"><li>Digital Photography</li></Link>
+                    <Link to="/FilmPhotography"><li>Film Photography</li></Link>
+                    <Link to="/DigitalPhotography"><li>Digital Photography</li></Link>
                     <Link to="#"><li>About Me</li></Link>
                     <Link to="#"><li>Inspiration</li></Link>
-                    <Link to="#"><li>Contact</li></Link>
+                    <Link to="/Contact"><li>Contact</li></Link>
                     
                 </ul>
         

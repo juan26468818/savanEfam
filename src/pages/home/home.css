@@ -1,25 +1,48 @@
 
 
 
-.Andres_2{
-    background-image: url("../../assets/imgs/Andres_2.webp");
+.FilmHome{
+    background-image: url("../../assets/imgs/Film/film3.webp");
     width: 100vw;
     height: 100vh;
 }
 
-.Window_2{
-    background-image: url("../../assets/imgs/Window_2.webp");
+.DigitalHome{
+    background-image: url("../../assets/imgs/Digital/Digital1.webp");
     width: 100vw;
     height: 300px;
 }
-.Food{
-    background-image: url("../../assets/imgs/Food.webp");
+.AboutMe{
+    background-image: url("../../assets/imgs/AboutMe.webp");
     width: 100vw;
     height: 300px;
 }
+.home__about-me-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home__about-me-description > h2, p{
+    margin: 0 2rem 1rem 2rem;
+    max-width: 500px;
+}
+.home__about-me-description > h2{
+    font-size: 2rem;
+}
+
+hr{
+    display: flex;
+    align-items: center;
+    height: 1px;
+    margin: 3rem 2rem;
+    background-color: var(--gray);
+    border: none;
+}
 
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:500px) {
     .photo__container{
         display: flex;
         flex-direction: column;
@@ -34,17 +57,22 @@
         margin: 0 4rem;
     }
 }
+
+
+
 @media screen and (min-width: 728px) {
-    .Andres_2{
-        background-image: url("../../assets/imgs/Food.webp");
-        width: 100vw;
-        height: 100vh;
-        object-fit: cover;
+    .FilmHome{
+        background-image: url("../../assets/imgs/Film/film4.webp");
+        width: 100%;
     }
-    .Window_2{
-        background-image: url("../../assets/imgs/Window_2.webp");
-        width: 100vw;
-        height: 100vh;   
+    .DigitalHome{
+        background-image: url("../../assets/imgs/Digital/Digital10.webp");
+        width: 100%;
+        height: 100vh;
+    }
+    .AboutMe{
+        width: 100%;
+        height: 100vh;
     }
 }
 
