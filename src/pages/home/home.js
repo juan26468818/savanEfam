@@ -6,7 +6,7 @@ import ImageSlider from "../../components/imagesSlider/imagesSlider";
 import Mosaic from "../../components/mosaic/mosaic";
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
-
+import Footer from "../../components/footer/footer";
 import digital3 from "../../assets/imgs/Digital/Digital3.webp"
 import digital4 from "../../assets/imgs/Digital/Digital4.webp"
 import digital5 from "../../assets/imgs/Digital/Digital5.webp"
@@ -79,6 +79,7 @@ const Home = ()=>{
                     </section>
                 </div>
             </div>
+            <Footer />
             
         </div>
     )

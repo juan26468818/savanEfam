@@ -113,5 +113,8 @@ hr{
         align-self: center;
         width: 1000px;
     }
+    .slider-separation{
+        display: block;
+    }
 }
 
