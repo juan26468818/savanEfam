@@ -7,20 +7,20 @@ import { snapToGrid as doSnapToGrid } from '../snapToGrid/SnapToGrid'
 
 
 const styles = {
-  width: "100%",
+  width: "100vw",
   height: "60%",
   position: 'relative',
 }
 export const Container = ({ snapToGrid, images }) => {
   const [boxes, setBoxes] = useState({
-    a: { top: 20, left: 0, image: images[0]},
-    b: { top: 40, left: 50, image: images[1]},
-    c: { top: 80, left: 0, image: images[2]},
-    d: { top: 200, left: 120, image: images[3]},
-    e: { top: 250, left: 150, image: images[4]},
-    f: { top: 300, left: 70, image: images[5]},
-    g: { top: 275, left: 170, image: images[6]},
-    h: { top: 100, left: 230, image: images[7]},
+    a: { top: 20, left: 500, image: images[0]},
+    b: { top: 100, left: 350, image: images[1]},
+    c: { top: 80, left: 600, image: images[2]},
+    d: { top: 200, left: 520, image: images[3]},
+    e: { top: 150, left: 850, image: images[4]},
+    f: { top: 100, left: 750, image: images[5]},
+    g: { top: 25, left: 670, image: images[6]},
+    h: { top: 20, left: 330, image: images[7]},
 
 
   })

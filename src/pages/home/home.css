@@ -28,6 +28,9 @@ hr{
     border: none;
 }
 
+.main__slider-container, .dnd, .slider-separation{
+    display: none;
+}
 
 @media screen and (min-width:500px) {
     .photo__container{
@@ -45,11 +48,8 @@ hr{
     }
 }
 
-.main__slider-container, .dnd, .slider-separation{
-    display: none;
-}
 
-@media screen and (min-width: 728px) {
+@media screen and (min-width: 1080px) {
     .m-view{
         display: none;
     }
@@ -81,12 +81,12 @@ hr{
         height: 250px;
     }
     .dnd{
-        /* width: 100vw; */
+        width: 100vw;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
     .mosaic__container{
-        width: 500px;
+        width: 100vw;
         height: 500px;
         display: flex;
         justify-content: space-around; 
@@ -94,10 +94,7 @@ hr{
     
     .dnd__container{
         display: flex;
-        width: 500px;
-    
-        border: 1px solid white;
-        margin: 4rem  0;
+        width: 100vw;
     }
     
     .main__slider-container{

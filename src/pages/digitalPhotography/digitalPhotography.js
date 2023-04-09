@@ -1,6 +1,7 @@
 import "./digitalPhotography.css"
 import Photos from "../../components/photos/photos"
 import Header from "../../components/header/header"
+import Footer from "../../components/footer/footer"
 
 import digital1 from "../../assets/imgs/Digital/Digital1.webp"
 import digital2 from "../../assets/imgs/Digital/Digital2.webp"
@@ -27,7 +28,7 @@ const DigitalPhotography = () =>{
             <h2>Digital Photography</h2>
             <p>To be completely honest, I prefer film photography. However, the spectacular perks of digital are undeniable. That’s why I shoot mostly digital (even though I intend to use more film in the future). The experimenting range and quickness of results that digital photography provides are what make it so essential in the life of a photographer. </p>
             </div>
-            {/* <div className="film-container">
+            <div className="film-container">
 
                  <Photos class="Digital1"/>
                 <hr />
@@ -59,7 +60,8 @@ const DigitalPhotography = () =>{
                 <Photos class="Digital11"/>
                 <hr />
                 <Photos class="Digital12"/> 
-            </div> */}
+            </div>
+            <Footer />
         </div>
     )
 }

@@ -24,10 +24,9 @@
 @media screen and (min-width: 728px) {
     .photo__container{
         margin: 0 4rem;
-        width: 700px;
     }
     .photo{
-        width: 90%;
         font-size: 5rem;
+         height: 700px;
     }
 }

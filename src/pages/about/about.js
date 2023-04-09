@@ -1,5 +1,6 @@
 import Header from "../../components/header/header"
 import Photos from "../../components/photos/photos"
+import Footer from "../../components/footer/footer"
 import "./about.css"
 
 const About = () =>{
@@ -13,6 +14,8 @@ const About = () =>{
                 </p>
             </div>
             <Photos class="AboutMe" title="Savan Efam"/>
+            <Footer />
+            
         </div>
     )
 }
