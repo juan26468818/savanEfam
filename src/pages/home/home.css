@@ -14,27 +14,10 @@
 }
 .AboutMe{
     background-image: url("../../assets/imgs/AboutMe.webp");
-    width: 100vw;
+    width: 500px;
     height: 300px;
 }
-.home__about-me-description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.home__about-me-description > h2, p{
-    margin: 0 2rem 1rem 2rem;
-    max-width: 500px;
-}
-.home__about-me-description > h2{
-    margin-top: 1rem;
-    font-size: 2rem;
-}
-.home__about-me-description > p{
-    margin-bottom: 1rem;
-}
+
 
 hr{
     display: flex;
@@ -62,9 +45,14 @@ hr{
     }
 }
 
-
+.main__slider-container, .dnd, .slider-separation{
+    display: none;
+}
 
 @media screen and (min-width: 728px) {
+    .m-view{
+        display: none;
+    }
     .FilmHome{
         background-image: url("../../assets/imgs/Film/film4.webp");
         width: 100%;
@@ -75,8 +63,8 @@ hr{
         height: 100vh;
     }
     .AboutMe{
-        width: 100%;
-        height: 100vh;
+        width: 500px;
+        height: 500px;
     }
     .home__about-me-description > h2, p{
         max-width: 70%;
@@ -88,11 +76,42 @@ hr{
     .home__about-me-description > h2{
         font-size: 3rem;
     }
+    .digital1{
+        width: 100%;
+        height: 250px;
+    }
+    .dnd{
+        /* width: 100vw; */
+        display: flex;
+        justify-content: center;
+    }
+    .mosaic__container{
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: space-around; 
+    }
+    
+    .dnd__container{
+        display: flex;
+        width: 500px;
+    
+        border: 1px solid white;
+        margin: 4rem  0;
+    }
+    
+    .main__slider-container{
+        min-height: 200px;
+        margin-bottom: 5rem;
+    }
+    
+    .home__body{
+        display: flex;
+        flex-direction: column;
+    }
+    .slider-separation{
+        align-self: center;
+        width: 1000px;
+    }
 }
-
-
-
-
-
-
 

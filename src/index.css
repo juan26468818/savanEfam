@@ -6,6 +6,7 @@
   font-family: 'Oswald', sans-serif;
 }
 html{
+  width: 100vw;
   --main-black: #141313;
   --secondary-black: #161617;
   --white: #FEFEFE;

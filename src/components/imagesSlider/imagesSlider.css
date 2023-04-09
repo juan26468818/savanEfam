@@ -1,0 +1,22 @@
+@media screen and (min-width: 728px){
+.imagesSlider__container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70vw;
+        height: 200px;
+    }
+    .slider__all-images{
+        object-fit: contain;
+        width: 200px;
+        height: 140px;
+        margin: 1rem;
+    }   
+    .main__slider-container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

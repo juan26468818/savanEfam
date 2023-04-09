@@ -1,0 +1,23 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.home__about-me-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home__about-me-description > h2, p{
+    margin: 0 2rem 1rem 2rem;
+    max-width: 500px;
+}
+.home__about-me-description > h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.home__about-me-description > p{
+    margin-bottom: 1rem;
+}
