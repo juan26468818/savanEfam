@@ -1,3 +1,7 @@
+.all-image-container{
+    display: none;
+}
+
 @media screen and (min-width: 1028px){
     .image__modal_container{
         position: relative;
@@ -24,6 +28,7 @@
         justify-content: center;
     }
     .all-image-container{
+        display: block;
         position: relative;
         display: flex;
         width: 100vw;

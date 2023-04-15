@@ -1,5 +1,5 @@
 .photo__container{
-    max-width: 100vw;
+    width: 100vw;
 }
 .photo{
     width: 100%;
@@ -23,10 +23,6 @@
 
 @media screen and (min-width: 728px) {
     .photo__container{
-        margin: 0 4rem;
-    }
-    .photo{
-        font-size: 5rem;
-         height: 700px;
+        display: none;
     }
 }

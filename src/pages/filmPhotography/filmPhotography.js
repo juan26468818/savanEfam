@@ -28,13 +28,12 @@ const FilmPhotography = () =>{
             <Header />
             <div className="home__about-me-description" >
                     <h2>Film Photography</h2>
-                    <p>Even though since I was a little kid I’ve had a fascination for photography, and always possessed cameras, I consider my life as a photographer started when I bought my first film camera (Minolta X700) I had to buy it because I enrolled in my very first photography class. 
-                    <br /> <br /> 
-                    I fell in love immediately. Not only taking the photograph but the whole process that this analogic process entails. Revealing your film and going to the darkroom to print the photograph makes it intimate in a way. 
-                    <br /> <br /> 
-                    I highly recommend that if you are going to do film photography, make sure to be present in every part of the process, learn how to develop, and how to print in the photo lab. It makes the process almost intimate.</p>
+                    <p>Photography has always held a special place in my heart. My father gifted me my first camera when I was just a child of twelve. But, alas, I didn't pursue it for long, and the camera lay forgotten in a drawer for years.</p>
+                    <p>It wasn't until I purchased my first film camera, a Minolta X700, that my life as a photographer truly began. I bought it for my first photography class at Broward College, Florida, and from the moment I held it in my hands, I fell in love immediately.</p>
+                    <p>The process of capturing images on film and developing them in a darkroom held a certain allure, an intimacy that is missing in the digital age. As I learned more about photography through the class, I discovered that it is more than just a matter of clicking a button. It is about understanding the nuances of light and composition, honing your observational skills, and mastering the art of printing.</p>
+                    <p>I urge anyone who delves into the world of film photography to immerse themselves in the entire process. Learn how to develop and print in a photo lab and experience the wonder of this mysterious adventure firsthand. The joy of seeing an image slowly come to life in the darkroom is something that cannot be replicated by the instant gratification of the digital age.</p>
                 </div>
-            {/* <div className="film-container" >
+            <div className="film-container" >
                 <Photos class="Film1"/>
                 <hr />
                 
@@ -56,7 +55,7 @@ const FilmPhotography = () =>{
                 <Photos class="Film8"/>
                 <hr />
                 <Photos class="Film7"/>
-            </div> */}
+            </div>
             <ImageSlider images={filmImages} isActive={true}/>
             
             <Footer />

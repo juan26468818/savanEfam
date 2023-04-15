@@ -24,7 +24,7 @@
 }
 .Film5{
     background-image: url("../../assets/imgs/Film/film5.webp");
-    height: 100vh;
+    height: 250px;
 }
 .Film6{
     background-image: url("../../assets/imgs/Film/film6.webp");
@@ -39,37 +39,8 @@
     height: 100vh;
 }
 
-@media screen and (min-width:600px) {
-    .Film1{
-        background-image: url("../../assets/imgs/Film/film4.webp");
-        margin-top: 2rem;
-        height: 400px;   
-    }
-    .Film4{
-        background-image: url("../../assets/imgs/Film/film1.webp");
-        height: 100vh;
-    }
-    .Film6{
-        height: 350px;
-    }
-    .Film7{
-        height: 300px;
-    }
-    .Film2{
-        height: 400px;
-    }
-}
-
 @media screen and (min-width: 992px){
-    .Film1, .Film6, .Film7, .Film2{
-        width: 800px;
-        height: 600px;
-    }
-}
-@media screen and (min-width:1300px){
-    .Film1, .Film6, .Film7, .Film2{
-        margin: 0;
-        width: 95%;
-        min-height: 900px;
+    .film-container{
+        display: none;
     }
 }

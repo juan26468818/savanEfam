@@ -24,6 +24,14 @@ import digital17 from "../../assets/imgs/Digital/Digital17.webp"
 import digital18 from "../../assets/imgs/Digital/Digital18.webp"
 import digital19 from "../../assets/imgs/Digital/Digital19.webp"
 import digital20 from "../../assets/imgs/Digital/Digital20.webp"
+
+import digital22 from "../../assets/imgs/Digital/Digital22.webp"
+import digital23 from "../../assets/imgs/Digital/Digital23.webp"
+import digital24 from "../../assets/imgs/Digital/Digital24.webp"
+import digital25 from "../../assets/imgs/Digital/Digital25.webp"
+import digital26 from "../../assets/imgs/Digital/Digital26.webp"
+import digital27 from "../../assets/imgs/Digital/Digital27.webp"
+
 import ImageSlider from "../../components/imagesSlider/imagesSlider"
 
 
@@ -32,14 +40,16 @@ import ImageSlider from "../../components/imagesSlider/imagesSlider"
 const DigitalPhotography = () =>{
     const digitalImages = [digital1, digital2, digital3, digital4, digital5, 
         digital6,digital7,digital8,digital9,digital10,digital11,digital12, digital13, digital14, digital15, digital16,
-        digital17, digital18, digital19, digital20
+        digital17, digital18, digital19, digital20, digital22, digital23, digital24, digital25, digital26, digital27
     
     ]
     return(
         <div className="all__photography-container">
             <Header /><div className="home__about-me-description" >
                 <h2>Digital Photography</h2>
-                <p>To be completely honest, I prefer film photography. However, the spectacular perks of digital are undeniable. That’s why I shoot mostly digital (even though I intend to use more film in the future). The experimenting range and quickness of results that digital photography provides are what make it so essential in the life of a photographer. </p>
+                <p>After my initial foray into the world of film photography, I decided to explore the colorful possibilities of digital imaging. I began with a Canon T7, which became my trusted companion for my second photography class. The immediacy of digital photography fascinated me, and it allowed me to enhance the skills I learned during my film experience.</p>
+                <p>Working with color added a new layer of complexity to my craft, but it also expanded my creative vision. I found myself noticing how color could alter perspective, and how subtle shifts in hue or saturation could evoke a range of emotions.</p>
+                <p>Though I still cherish my film camera, I find myself reaching for my digital one more often these days. Its quick results and affordability make it a practical choice, especially during uninspired moments. With the click of a button, I can instantly see my vision take shape, and that, too, is a thing of beauty.</p>
             </div>
             <div className="film-container">
             <hr className="slider-separation"/>
