@@ -2,7 +2,7 @@ import "./filmPhotography.css"
 import Photos from "../../components/photos/photos";
 import Header from "../../components/header/header";
 import ImageSlider from "../../components/imagesSlider/imagesSlider"
-
+import Footer from "../../components/footer/footer";
 import film1 from "../../assets/imgs/Film/film1.webp"
 import film2 from "../../assets/imgs/Film/film2.webp"
 import film3 from "../../assets/imgs/Film/film3.webp"
@@ -59,7 +59,7 @@ const FilmPhotography = () =>{
             </div> */}
             <ImageSlider images={filmImages} isActive={true}/>
             
-
+            <Footer />
         </div>
     )
 }

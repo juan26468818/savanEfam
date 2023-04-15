@@ -35,11 +35,11 @@
     .closeModal{
         position: absolute;
         right: 0;
-        top: -400px;
+        top: 0px;
         background-color: none;
         font-size: 3rem;
         font: bolder;
-        z-index: 10000;
+        z-index: 10;
         cursor: pointer;
     }
 }
