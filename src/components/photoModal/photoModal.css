@@ -1,0 +1,54 @@
+.image-slider-modal{
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: 200%;
+    backdrop-filter: blur(10px);
+    /* background-color: black; */
+}
+.image-slider-modal-content{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 50%;
+}
+.image-slider-modal-overlay{
+    margin: 4rem 0;
+    width: 100%;
+    height: 100%;
+}
+.photo__modal{
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.image-slider-modal-next, .image-slider-modal-prev{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 2.5rem;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.image-slider-modal-prev{
+    
+    left: -10%;
+    bottom: 50%;
+}
+.image-slider-modal-next{
+    right: -10%;
+    bottom: 50%;
+}
+
+.d-none{
+    display: none;
+}

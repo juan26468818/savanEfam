@@ -59,6 +59,12 @@
     height: 250px;
 }
 
+
+.all__photography-container{
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
 @media screen and (min-width: 600px){
     .Digital1, .Digital2, .Digital3, .Digital4, .Digital5, .Digital6, .Digital7, .Digital8, .Digital9, .Digital10, .Digital11, .Digital12{
         height: 400px;

@@ -113,5 +113,8 @@ hr{
     .slider-separation{
         display: block;
     }
+    .Home__Image-Slider{
+        width: 200px;
+    }
 }
 

@@ -57,7 +57,7 @@ const Home = ()=>{
                 </div>
                 <hr className="slider-separation"/>
                 <div className="main__slider-container">
-                    <ImageSlider images={sliderImages} alt="prueba" />
+                    <ImageSlider images={sliderImages} alt="prueba" class="Home__Image-Slider"/>
                 </div>
                 {/* <div className="main__slider-container">
                     <h2>Film Photography</h2>
