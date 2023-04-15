@@ -8,7 +8,7 @@ import { snapToGrid as doSnapToGrid } from '../snapToGrid/SnapToGrid'
 
 const styles = {
   width: "100vw",
-  height: "60%",
+  height: "500px",
   position: 'relative',
 }
 export const Container = ({ snapToGrid, images }) => {

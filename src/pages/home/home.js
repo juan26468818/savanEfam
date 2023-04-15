@@ -35,7 +35,7 @@ import film10 from "../../assets/imgs/Film/film10.webp"
 import film11 from "../../assets/imgs/Film/film11.webp"
 
 const Home = ()=>{
-    const digitalImages = [digital7, digital15, digital3, film1, film2, film5]
+    const digitalImages = [digital7, digital15, digital3, film1, film2, film5, digital6]
     const sliderImages = [film2,digital9,digital10,digital11,
         digital12,  film6, film7, film10, 
         film11,film4 , digital3,

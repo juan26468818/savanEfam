@@ -28,7 +28,6 @@ const Header = ()=>{
                     <Link to="/FilmPhotography"><li>Film Photography</li></Link>
                     <Link to="/DigitalPhotography"><li>Digital Photography</li></Link>
                     <Link to="/About"><li>About Savan Efam</li></Link>
-                    <Link to="/Inspiration"><li>Inspiration</li></Link>
                     <Link to="/Contact"><li>Contact</li></Link>
                     
                 </ul>

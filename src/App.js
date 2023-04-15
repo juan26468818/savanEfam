@@ -4,7 +4,6 @@ import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import DigitalPhotography from "./pages/digitalPhotography/digitalPhotography";
 import FilmPhotography from "./pages/filmPhotography/filmPhotography";
-import Inspiration from "./pages/inspiration/inspiration";
 import NoPage from "./pages/nopage/nopage";
 import './App.css';
 
@@ -17,7 +16,6 @@ function App() {
         <Route path="Contact" element={<Contact />} />
         <Route path="DigitalPhotography" element={<DigitalPhotography />} />
          <Route path="About" element={<About />} />
-        <Route path="Inspiration" element={<Inspiration />} />
         {/*<Route path="*" element={<NoPage />} /> */}
       </Routes>
     </BrowserRouter>
