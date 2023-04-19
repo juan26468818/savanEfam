@@ -22,6 +22,7 @@ import digital14 from "../../assets/imgs/Digital/Digital14.webp"
 import digital15 from "../../assets/imgs/Digital/Digital15.webp"
 import digital16 from "../../assets/imgs/Digital/Digital16.webp"
 import digital18 from "../../assets/imgs/Digital/Digital18.webp"
+import digital17 from "../../assets/imgs/Digital/Digital17.webp"
 import digital19 from "../../assets/imgs/Digital/Digital19.webp"
 import digital20 from "../../assets/imgs/Digital/Digital20.webp"
 
@@ -33,7 +34,8 @@ import film6 from "../../assets/imgs/Film/film6.webp"
 import film7 from "../../assets/imgs/Film/film7.webp"
 import film10 from "../../assets/imgs/Film/film10.webp"
 import film11 from "../../assets/imgs/Film/film11.webp"
-
+import homeFilm from "../../assets/imgs/Film/film3.webp"
+import about from "../../assets/imgs/AboutMe.webp"
 const Home = ()=>{
     const digitalImages = [digital7, digital15, digital3, film1, film2, film5, digital6]
     const sliderImages = [film2,digital9,digital10,digital11,
@@ -43,7 +45,9 @@ const Home = ()=>{
         digital5, digital6, digital7,digital8,
         digital13,digital14,digital15,digital16,
         digital18,digital19,digital20]
-
+    const homeFilmArr = [homeFilm]
+    const homeDigitalArr = [digital17]
+    const aboutArr = [about]
     return(
         <div>
             <Header />
@@ -63,9 +67,10 @@ const Home = ()=>{
                     <h2>Film Photography</h2>
                     <ImageSlider images={sliderImages} alt="prueba" />
                 </div> */}
-
-                
-                <div className="m-view">
+                <Link to="/FilmPhotography/#film-photography"><Photos images={homeFilmArr} title="Film Photography"/></Link>
+                <Link to="DigitalPhotography"><Photos images={homeDigitalArr} title="Digital Photography"/> </Link>
+                <Link to="About"><Photos images={aboutArr} title="About Me"/></Link>
+                {/* <div className="m-view">
                     <Link to="/FilmPhotography/#film-photography"><Photos class="FilmHome" title="Film Photography"/></Link>
                         <hr />
                     <Link to="DigitalPhotography"><Photos class="DigitalHome" title="Digital Photography"/> </Link>
@@ -77,7 +82,7 @@ const Home = ()=>{
                         <div className="home__about-me-description">
                     </div>
                     </section>
-                </div>
+                </div> */}
             </div>
             <Footer />
             

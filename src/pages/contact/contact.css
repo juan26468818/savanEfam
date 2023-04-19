@@ -15,15 +15,19 @@
 }
 .input__container{
     display: flex;
+    width: 300px;
     flex-direction: column;
     margin: .5rem 0 1.5rem 0;
     font-size: 1.5rem;
 }
 .form-control{
-    width: 200px;
+    width: 100%;
     margin: .5rem 0;
     padding: .5rem 1rem;
     font-size: 1rem;
+}
+.form-label{
+    width: 100%;
 }
 .btn{
     width: 100%;

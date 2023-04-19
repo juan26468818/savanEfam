@@ -34,27 +34,7 @@ const FilmPhotography = () =>{
                     <p>I urge anyone who delves into the world of film photography to immerse themselves in the entire process. Learn how to develop and print in a photo lab and experience the wonder of this mysterious adventure firsthand. The joy of seeing an image slowly come to life in the darkroom is something that cannot be replicated by the instant gratification of the digital age.</p>
                 </div>
             <div className="film-container" >
-                <Photos class="Film1"/>
-                <hr />
-                
-                <Photos class="Film2"/>
-                <hr />
-
-                <Photos class="Film3"/>
-                <hr />
-
-                <Photos class="Film4"/>
-                <hr />
-
-                <Photos class="Film5"/>
-                <hr />
-
-                <Photos class="Film6"/>
-                <hr />
-
-                <Photos class="Film8"/>
-                <hr />
-                <Photos class="Film7"/>
+                <Photos images={filmImages}/>
             </div>
             <ImageSlider images={filmImages} isActive={true}/>
             

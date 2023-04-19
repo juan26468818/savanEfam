@@ -22,7 +22,7 @@ const About = () =>{
                 <p>Now, while attending Florida International University, my vision for the future remains bright. With each day, I hone my skills and deepens my knowledge of the communications world, forging ahead towards my aspirations and fulfilling my dreams.
                 </p>
             </div>
-            <Photos class="AboutMe" title="Savan Efam"/>
+            <Photos images = {aboutImages}/>
             <ImageSlider images={aboutImages} isActive={true}/>
             <Footer />
             

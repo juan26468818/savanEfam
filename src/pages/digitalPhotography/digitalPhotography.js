@@ -53,39 +53,7 @@ const DigitalPhotography = () =>{
             </div>
             <div className="film-container">
             <hr className="slider-separation"/>
-                
-                
-
-                 {/* <Photos class="Digital1"/>
-                <hr />
-                
-                <Photos class="Digital2"/>
-                <hr />
-
-                <Photos class="Digital3"/>
-                <hr />
-
-                <Photos class="Digital4"/>
-                <hr />
-
-                <Photos class="Digital5"/>
-                <hr />
-
-                <Photos class="Digital6"/>
-                <hr />
-
-                <Photos class="Digital7"/>
-                <hr />
-
-                <Photos class="Digital8"/>
-                <hr />
-                <Photos class="Digital9"/>
-                <hr />
-                <Photos class="Digital10"/>
-                <hr />
-                <Photos class="Digital11"/>
-                <hr />
-                <Photos class="Digital12"/>  */}
+                <Photos images={digitalImages}/>
             </div>
             <ImageSlider images={digitalImages} isActive={true}/>
             {/* <PhotoModal images={digitalImages}/> */}
